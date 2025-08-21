@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header .search-bar {
+    display: flex;
+}
+
+header .search-bar input {
+    width: 300px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+header .search-bar button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #febd69;
+    color: #111;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cart a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #b12704;
+}
+
+.product-card button {
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+footer .footer-links ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+}

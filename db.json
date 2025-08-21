@@ -1,0 +1,64 @@
+{
+    "games": [
+        {
+            "title": "Action RPG Game",
+            "price": 49.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Fantasy Adventure Game",
+            "price": 59.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Sci-Fi Shooter Game",
+            "price": 39.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Open World Sandbox Game",
+            "price": 29.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Survival Horror Game",
+            "price": 19.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Indie Puzzle Game",
+            "price": 9.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Racing Simulation Game",
+            "price": 44.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Sports Management Game",
+            "price": 34.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Strategy War Game",
+            "price": 54.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Platformer Game",
+            "price": 14.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Fighting Game",
+            "price": 24.99,
+            "image": "https://via.placeholder.com/200x300"
+        },
+        {
+            "title": "Stealth Action Game",
+            "price": 39.99,
+            "image": "https://via.placeholder.com/200x300"
+        }
+    ]
+}
